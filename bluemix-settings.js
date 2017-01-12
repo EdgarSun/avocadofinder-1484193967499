@@ -51,13 +51,8 @@ var settings = module.exports = {
 
     functionGlobalContext: {
         underscore: require('underscore'),
-        //underscorestring: require('underscore.string'),
         moment: require('moment'),
-        moment: require('easyimage')
-        //commandLineArgs:require('command-line-args'),
-        //canvas:require('canvas'),
-        //deepdiff:require('deep-diff'),
-        //async:require("async")
+        easyimage: require('easyimage')
     },
 
     storageModule: require("./couchstorage")
