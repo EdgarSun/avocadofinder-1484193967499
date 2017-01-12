@@ -50,6 +50,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: {
+    	process: process,
         underscore: require('underscore'),
         moment: require('moment'),
         easyimage: require('easyimage')
